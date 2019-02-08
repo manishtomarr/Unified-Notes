@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <item
+        android:id="@+id/action_bold"
+        android:title="B"
+        android:tooltipText="Bold"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/action_italic"
+        android:title="I"
+        android:textStyle="italic"
+        android:tooltipText="Italic"
+        android:typeface="normal"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/action_underline"
+        android:tooltipText="Underline"
+        android:typeface="normal"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/underline_name" />
+
+</menu>

@@ -1,0 +1,37 @@
+apply plugin: 'com.android.library'
+apply from: '../build-config/gradle-quality.gradle'
+
+dependencies {
+
+
+    implementation 'com.evernote:evernote-api:1.25.1'
+    implementation 'org.scribe:scribe:1.3.7'
+
+    implementation 'net.vrallev.android:android-task:1.0.7'
+    implementation 'com.squareup.okhttp:okhttp:2.4.0'
+
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.assertj:assertj-core:1.7.1'
+}
+
+android {
+    compileSdkVersion 27
+    //buildToolsVersion rootProject.ext.buildToolsVersion
+
+    resourcePrefix 'esdk_'
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 27
+        //versionName project.VERSION_NAME
+        //versionCode Integer.parseInt(project.VERSION_CODE)
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+
+}
+

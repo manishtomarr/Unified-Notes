@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_id"
+        android:layout_width="370dp"
+        android:layout_height="290dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:itemCount="3"
+        tools:layoutManager="GridLayoutManager"
+        tools:spanCount="5"></android.support.v7.widget.RecyclerView>
+
+    <ImageButton
+        android:id="@+id/addiconID"
+        android:layout_width="213dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerview_id"
+        app:srcCompat="@drawable/addicon"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

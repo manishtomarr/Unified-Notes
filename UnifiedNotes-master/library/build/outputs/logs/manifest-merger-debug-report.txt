@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:3:1-13:12
+INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:3:1-13:12
+INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:3:1-13:12
+	package
+		ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:8:5-11:19
+activity#com.evernote.client.android.EvernoteOAuthActivity
+ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:9:9-85
+	android:name
+		ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:9:19-83
+activity#com.evernote.client.android.login.EvernoteLoginActivity
+ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:10:9-91
+	android:name
+		ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml:10:19-89
+uses-sdk
+INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+		ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+		ADDED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soura\Downloads\UnifiedNotes-master 2 (1)\UnifiedNotes-master\library\src\main\AndroidManifest.xml
